@@ -1,3 +1,5 @@
+# ![Phonin](https://phonin.github.io/Branding/icons/phonin.svg)
+
 ## CLI Commands
 
 - `yarn`: Installs dependencies
