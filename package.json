@@ -1,9 +1,9 @@
 {
-  "private": true,
   "name": "phonin",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "pbuild": "preact build",
     "build": "preact build",
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
