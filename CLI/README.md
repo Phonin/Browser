@@ -1,4 +1,4 @@
-# ![Phonin](https://phonin.github.io/Branding/icons/phonin.svg)
+# [![Phonin](https://phonin.github.io/Branding/icons/phonin.svg)](https://phonin.github.io/Browser/)
 
 ## CLI Commands
 
