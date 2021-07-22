@@ -2,18 +2,28 @@
 
 ## CLI Commands
 
-- `npm install`: Installs dependencies
+- `yarn`: Installs dependencies
 
-- `npm run dev`: Run a development, HMR server
+- `yarn dist`: Build Electron and Preact
 
-- `npm run serve`: Run a production-like server
+### Preact Commands
 
-- `npm run build`: Production-ready build
+- `yarn dev`: Run a development, HMR server
 
-- `npm run lint`: Pass TypeScript files using ESLint
+- `yarn serve`: Run a production-like server
 
-- `npm run test`: Run Jest and Enzyme with
+- `yarn build`/`yarn pbuild`: Production-ready build
+
+- `yarn lint`: Pass TypeScript files using ESLint
+
+- `yarn test`: Run Jest and Enzyme with
   [`enzyme-adapter-preact-pure`](https://github.com/preactjs/enzyme-adapter-preact-pure) for
   your tests
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+### Electron Commands
+
+- `yarn run`: Run Electron, provided `/dist` (created by `yarn build`) is available
+
+- `yarn start`: Run Electron, provided `yarn dev` or `yarn serve` are running
+
+- `yarn ebuild`: Build Electron
