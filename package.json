@@ -8,7 +8,8 @@
     "serve": "sirv build --port 6699 --cors --single",
     "dev": "preact watch --port 6699",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "test": "jest ./tests"
+    "test": "jest ./tests",
+    "preinstall": "cp defaultBuild build"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -30,6 +31,7 @@
     "@types/jest": "^26.0.8",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
+    "electron": "^13.1.7",
     "enzyme": "^3.11.0",
     "enzyme-adapter-preact-pure": "^3.1.0",
     "eslint": "^6.8.0",
