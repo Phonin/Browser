@@ -5,8 +5,8 @@
   "scripts": {
     "pbuild": "preact build",
     "build": "preact build",
-    "serve": "sirv build --port 6666 --cors --single",
-    "dev": "preact watch --port 6666",
+    "serve": "sirv build --port 6699 --cors --single",
+    "dev": "preact watch --port 6699",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "test": "jest ./tests"
   },
