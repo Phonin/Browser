@@ -1,4 +1,5 @@
 # Phonin
 
-## For Developers
+## For Developers: Command-Line Interface
+
 See [CLI](CLI)
