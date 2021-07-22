@@ -6,10 +6,11 @@
     "pbuild": "preact build",
     "build": "preact build",
     "serve": "sirv build --port 6699 --cors --single",
-    "dev": "preact watch --port 6699",
+    "dev": "preact watch --port 6699 --src src/preact",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "test": "jest ./tests",
-    "preinstall": "node preinstall.js"
+    "test": "jest ./bin/tests",
+    "preinstall": "node preinstall.js",
+    "run": "electron ."
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -51,5 +52,6 @@
       "<rootDir>/tests/__mocks__/browserMocks.ts",
       "<rootDir>/tests/__mocks__/setupTests.ts"
     ]
-  }
+  },
+  "main": "bin/electron/index.js"
 }

@@ -12,9 +12,9 @@
 
     // SETTINGS File Locations
     "rootDir": "./src",                       // SETTING Input (Root) Directory
-    "outDir": "./dist",                       // SETTING Output Directory
-    "declarationDir": "./d",                  // SETTING Declaration Directory
-    "mapRoot": "./js",                        // SETTING Source Map Directory (For Debuggers)
+    "outDir": "./bin/src",                    // SETTING Output Directory
+    "declarationDir": "./bin/d",              // SETTING Declaration Directory
+    "mapRoot": "./bin/src",                   // SETTING Source Map Directory (For Debuggers)
     "sourceRoot": "./ts",                     // SETTING Source Code Directory (For Debuggers)
     // !SETTINGS
 
