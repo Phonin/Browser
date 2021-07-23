@@ -12,10 +12,10 @@
 
     // SETTINGS File Locations
     "rootDir": "./src",                       // SETTING Input (Root) Directory
-    "outDir": "./bin/src",                    // SETTING Output Directory
+    "outDir": "./bin",                        // SETTING Output Directory
     "declarationDir": "./bin/d",              // SETTING Declaration Directory
-    "mapRoot": "./bin/src",                   // SETTING Source Map Directory (For Debuggers)
-    "sourceRoot": "./ts",                     // SETTING Source Code Directory (For Debuggers)
+    "mapRoot": "./src",                       // SETTING Source Map Directory (For Debuggers)
+    "sourceRoot": "./src",                    // SETTING Source Code Directory (For Debuggers)
     // !SETTINGS
 
     "module": "CommonJS",                     // SETTING Module Resolution - Recommended value: Depends on your use case
