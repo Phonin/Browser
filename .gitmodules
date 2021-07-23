@@ -1,0 +1,3 @@
+[submodule "src/preact/components/Components"]
+	path = src/preact/components/Components
+	url = git@github.com:Phonin/Components.git
