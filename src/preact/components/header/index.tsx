@@ -1,5 +1,5 @@
 import { FunctionalComponent, h } from 'preact';
-import { Link } from 'preact-router/match';
+import Link from '../Components/Link';
 import style from './style.scss';
 
 const Header: FunctionalComponent = () => {
@@ -10,6 +10,7 @@ const Header: FunctionalComponent = () => {
         <Link activeClassName={style.active} href="/">
           Bookmark 1
         </Link>
+        <a href="g"></a>
       </nav>
     </header>
   );
